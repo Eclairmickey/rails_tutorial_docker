@@ -14,11 +14,7 @@ class MicropostsTest < ApplicationSystemTestCase
     visit microposts_url
     click_on "New Micropost"
 
-<<<<<<< HEAD
     fill_in "Content", with: @micropost.content
-=======
-    fill_in "Context", with: @micropost.context
->>>>>>> 88f2e9e19b3ff64e64ab47ec4f55187e165d9aa1
     fill_in "User", with: @micropost.user_id
     click_on "Create Micropost"
 
@@ -30,11 +26,8 @@ class MicropostsTest < ApplicationSystemTestCase
     visit microposts_url
     click_on "Edit", match: :first
 
-<<<<<<< HEAD
+
     fill_in "Content", with: @micropost.content
-=======
-    fill_in "Context", with: @micropost.context
->>>>>>> 88f2e9e19b3ff64e64ab47ec4f55187e165d9aa1
     fill_in "User", with: @micropost.user_id
     click_on "Update Micropost"
 

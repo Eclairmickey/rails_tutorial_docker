@@ -10,17 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
+
 ActiveRecord::Schema.define(version: 2019_09_23_185046) do
 
   create_table "microposts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "content"
-=======
-ActiveRecord::Schema.define(version: 2019_09_16_082038) do
-
-  create_table "microposts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.text "context"
->>>>>>> 88f2e9e19b3ff64e64ab47ec4f55187e165d9aa1
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
